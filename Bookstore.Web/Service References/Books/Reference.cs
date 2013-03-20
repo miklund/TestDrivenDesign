@@ -26,6 +26,9 @@ namespace Bookstore.Web.Books {
         private string AuthorField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string GenreField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private double PriceField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
@@ -53,6 +56,19 @@ namespace Bookstore.Web.Books {
                 if ((object.ReferenceEquals(this.AuthorField, value) != true)) {
                     this.AuthorField = value;
                     this.RaisePropertyChanged("Author");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Genre {
+            get {
+                return this.GenreField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.GenreField, value) != true)) {
+                    this.GenreField = value;
+                    this.RaisePropertyChanged("Genre");
                 }
             }
         }

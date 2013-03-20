@@ -8,6 +8,8 @@ namespace Bookstore.Api.Model
 
         public string Author { get; set; }
 
+        public string Genre { get; set; }
+
         public double Price { get; set; }
 
         public DateTime Published { get; set; }

@@ -18,6 +18,7 @@ namespace Bookstore.Api.Repositories
             {
                 Title = book.title,
                 Author = book.author,
+                Genre = book.genre,
                 Price = book.price,
                 Published = book.publish_date
             };

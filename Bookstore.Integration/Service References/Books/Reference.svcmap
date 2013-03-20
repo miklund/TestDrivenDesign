@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0efc42a0-9c12-448c-812d-a19a0fc32985" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:54585/Books.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Books.disco" MetadataType="Disco" ID="d36eeb52-51f0-49c2-ab4b-ee28a671c4b6" SourceId="1" SourceUrl="http://localhost:54585/Books.svc?disco" />
+    <MetadataFile FileName="Books.wsdl" MetadataType="Wsdl" ID="488cdf02-58ef-47ce-96ff-fec94fb300d9" SourceId="1" SourceUrl="http://localhost:54585/Books.svc?wsdl" />
+    <MetadataFile FileName="Books.xsd" MetadataType="Schema" ID="5098df52-a041-4fd0-bb55-6fbba9106c64" SourceId="1" SourceUrl="http://localhost:54585/Books.svc?xsd=xsd1" />
+    <MetadataFile FileName="Books1.xsd" MetadataType="Schema" ID="1878e2e9-ce57-46b7-abd5-2d4ec4cb36c7" SourceId="1" SourceUrl="http://localhost:54585/Books.svc?xsd=xsd0" />
+    <MetadataFile FileName="Books2.xsd" MetadataType="Schema" ID="83d619b0-8df4-4f02-915b-2d644f1ba06c" SourceId="1" SourceUrl="http://localhost:54585/Books.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
